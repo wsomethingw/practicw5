@@ -32,8 +32,8 @@ btn_parse.pack()
 btn_creator = tk.Button(root, text="Creator info", command=show_creator_info)
 btn_creator.pack()
 
-#путь к фотографии воставляется вами 
-image = Image.open("C:/Users/titan/pr/photo_2024-05-12_16-06-04.jpg")
+#ГЇГіГІГј ГЄ ГґГ®ГІГ®ГЈГ°Г ГґГЁГЁ ГўГ®Г±ГІГ ГўГ«ГїГҐГІГ±Гї ГўГ Г¬ГЁ 
+image = Image.open("C:\Users\User\Pictures\Saved Pictures\2d11dccbea72ff3a739b35600403.jpg")
 tk_image = ImageTk.PhotoImage(image)
 image_label = tk.Label(root, image=tk_image)
 image_label.pack()
